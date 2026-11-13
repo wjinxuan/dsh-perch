@@ -1,0 +1,16 @@
+- insert:
+    - id: perch
+      name: '@wjinxuan/dsh-perch'
+      # These values only seed the FIRST run. Afterwards the visual settings
+      # window owns them: right-click the notch panel → 设置…
+      config:
+        # Launch the screen-level notch helper (macOS only). false = draw nothing.
+        overlay: true
+        # Completion reminder. Both channels use `text` below.
+        notify:
+          system: true   # macOS notification banner (DSH needs notification permission)
+          voice: true    # spoken through the system voice
+        # Your own one-line reminder, picked by the active DSH language.
+        text:
+          zh: 任务完成
+          en: Task complete

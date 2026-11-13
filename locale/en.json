@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Perch",
+    "description": "Draws the island in the black band at the top of the macOS screen, flush with the camera housing; hover, click or ⌥⌘P to expand, right-click to collapse or quit. When a task finishes it sends two reminders: a system notification banner posted by DSH itself, and a spoken reminder. **Right-click the panel → Settings…** opens the visual settings: switch each channel on or off and type one reminder line per language (picked by the active DSH language) — applied immediately, no restart. The patch's `config.notify` only seeds the first run. The banner needs macOS to allow notifications from DeepSeek Harness (System Settings → Notifications). `config.overlay: false` turns the whole screen layer off."
+  }
+}

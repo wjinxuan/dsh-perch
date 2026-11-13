@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Perch",
+    "zh": "栖岛 Perch"
+  },
+  "description": {
+    "en": "A Dynamic-Island-style status panel for DeepSeek Harness that lives in the macOS notch.",
+    "zh": "住在 macOS 刘海里的 DSH 灵动岛：任务在跑时显示计数与列表，结束时有完成提示、系统通知与语音播报。"
+  },
+  "metadata": {
+    "categories": {
+      "interface": {
+        "title": {
+          "en": "Interface",
+          "zh": "界面"
+        }
+      }
+    },
+    "labels": {},
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "@wjinxuan/dsh-perch",
+      "title": {
+        "en": "Perch",
+        "zh": "栖岛"
+      },
+      "description": {
+        "en": "A status panel pinned to the macOS notch: running turns, background jobs and subagents, with a completion banner and a spoken reminder.",
+        "zh": "固定在 macOS 刘海下的状态面板：正在跑的轮次、后台任务与子 agent，完成时有横幅与语音提醒。"
+      },
+      "icon": "https://raw.githubusercontent.com/wjinxuan/dsh-perch/main/icon.svg",
+      "author": "wjinxuan",
+      "homepage": "https://github.com/wjinxuan/dsh-perch",
+      "repository": {
+        "url": "https://github.com/wjinxuan/dsh-perch"
+      },
+      "metadata": {
+        "category": "interface",
+        "keywords": [
+          "macos",
+          "notch",
+          "dynamic-island",
+          "status",
+          "notification"
+        ],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1794547806,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/wjinxuan/dsh-perch",
+            "commit": "4a1d6088c8d2f3cfe8a1b2928846236ff59b2e1a"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.2"
+          }
+        }
+      ]
+    }
+  ]
+}
